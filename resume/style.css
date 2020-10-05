@@ -1,5 +1,6 @@
 /* styles for my resume */
 
+/*shortcut to make the text uniform*/
 body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -7,6 +8,7 @@ body {
   font-weight: 400;
 }
 
+/* made my name stand out */
 h1 {
   font-size: 3em;
   text-transform: uppercase;
@@ -14,15 +16,43 @@ h1 {
   color: #33485e
 }
 
+/* made my title stand out too */
 strong {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #33485e;
 }
 
+/* gave section headers a cool destinction */
 h2 {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
 }
+
+/* bolded job titles */
+h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/* emphasized place of work */
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/* emphasized work dates */
+h5 {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* made bottom two sections uniform */
+ul {
+  font-size: 1em;
+}
+
+/* put some inline styling as well to fix italics in the "skills" section */
