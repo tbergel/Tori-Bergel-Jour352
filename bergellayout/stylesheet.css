@@ -7,10 +7,9 @@
   text-transform: uppercase;
   text-shadow: 2px 2px 25px black;
   color: white;
-  opacity: initial;
-  padding: 50px;
+  padding: 45px;
   font-family: Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: bold;
   text-align: center;
 }
@@ -20,7 +19,7 @@
   border: 1px solid black;
   opacity: 85%;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-left: 0;
   margin-right: 0;
   background-color: #ffffff;
@@ -32,12 +31,12 @@
   font-style: italic;
   text-align: center;
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 3em;
+  font-size: 2.5em;
   text-transform: uppercase;
   text-align: center;
   color: coral;
@@ -57,4 +56,39 @@ body {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+figure {
+  border: thin  black solid;
+}
+
+figcaption {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.caption {
+  caption-side: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.captionheader {
+  caption-side: top;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+blockquote {
+  font: 16px/24px normal helvetica, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: coral;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
 }
