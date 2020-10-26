@@ -2,3 +2,59 @@
   margin: 0 auto;
   width: 900px;
 }
+
+#title {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 25px black;
+  color: white;
+  opacity: initial;
+  padding: 50px;
+  font-family: Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#background {
+  background-image: url(https://img5.goodfon.com/wallpaper/nbig/5/11/laptop-desk-coffee-music-cookie.jpg);
+  border: 1px solid black;
+  opacity: 85%;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #ffffff;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: coral;
+  width: 90%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #444;
+  font-weight: 400;
+}
+
+.picture {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
