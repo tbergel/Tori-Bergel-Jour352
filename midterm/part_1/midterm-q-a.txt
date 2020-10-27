@@ -26,7 +26,7 @@ Questions
 
 2.  Describe the purpose of a DIV tag.
 
-The DIV tag, short for "division," is,by itself, a container element. It helps to divide and define sections of an HTML document. It's very helpful, because we can place other content within it--like headings or links. It's used to group different HTML elements together so that we can then format them with CSS.
+The DIV tag, short for "division," is, by itself, a container element. It helps to divide and define sections of an HTML document. It's very helpful, because we can place other content within it--like headings or links. It's used to group different HTML elements together so that we can then format them with CSS.
 
 
 

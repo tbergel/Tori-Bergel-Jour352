@@ -1,0 +1,118 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#background {
+  background-image: url(https://content.money.com/wp-content/uploads/2019/07/10femaleathletes.jpg?quality=85);
+  /* image cred: Illustration by Lixia Guo; Getty Images, via Money.com */
+  /* wanted to give credit where credit is due */
+  background-position: left;
+  background-size: contain;
+  border: 1px solid black;
+  opacity: 85%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#backgroundbox {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border: .5px solid black;
+  background-color: #EDBDC4;
+}
+
+#title {
+    text-shadow: 2px 2px 25px #998629;
+    color: white;
+    padding: 5px;
+    font-family: Georgia, Garamond, serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+  font-family: Garamond, Georgia, serif;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  text-align: left;
+  color: #943A85;
+  width: 90%;
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+
+#byline {
+  font-family: "Century Gothic", Verdana, serif;
+  font-size: 10px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #943A85;
+}
+
+h2 {
+color: #0F7EC6;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+#picture {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.photo {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+figcaption {
+  font-family: "Century Gothic", Verdana, serif;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  font-size: 10px;
+  font-style: italic;
+}
+
+blockquote {
+  font: 16px/24px normal Garamond, Georgia, serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #808080;
+  margin-left: 25px;
+  margin-right: 400px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: underline #CFA636;
+}
+
+span {
+  font-style: italic;
+  font-weight: bold;
+  color: #CFA636;
+}
+
+#graphic {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-family: Helvetica, Arial, sans-serif;
+}
