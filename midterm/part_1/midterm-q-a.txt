@@ -3,7 +3,7 @@ Part 1: Q&A
 
 Directions:
 
-1.  Use a text editor (like ATOM) to complete this assignment.
+1. Use a text editor (like ATOM) to complete this assignment.
 
 2. This assignment is open book.
 
@@ -19,67 +19,89 @@ Questions
 
 1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
 
-Google is the best search engine in the world.
+<a href="https://www.google.com" target="_blank">Google</a> is the best search engine in the world.
 
 
 
 
 2.  Describe the purpose of a DIV tag.
 
+The DIV tag, short for "division," is,by itself, a container element. It helps to divide and define sections of an HTML document. It's very helpful, because we can place other content within it--like headings or links. It's used to group different HTML elements together so that we can then format them with CSS.
 
 
 
 3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
 
 
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+    <body>
+      <p></p>
+    </body>
+</html>
 
 
 4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
 
 
+In the head section (between <head> and </head>)
 
 
 
 5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
 
 
+In the body section (between <body> and </body>)
 
 
 
 6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
 
 
+<div class="graphicbox"></div>
 
+<div id="name"></div>
 
 
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
 
-
+<div id="apples" class="fruit"></div>
 
 
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
 
+.fruit {
+  color: black;
+}
 
+<!-- either works, but since you gave the color code, you'd probably prefer the bottom code -->
+
+.fruit {
+  color: #000000;
+}
 
 
 
 9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
 
 
+an image tag: <img src="" alt="">
 
 
 10.  Why do we use media queries?
 
-
+We use media queries, because it's the feature that allows us to change the formatting of our code/website to be able to adapt to different devices and formats (it enables us to view our code in many different formats like webpage view, phone view, iPad view, etc.).
 
 
 11. What is the main difference between a serif and a sans-serif font?
 
-
+Serif is a bit fancier with more flourishes, while sans-serif is a more casual and blocky text. "Serif" basically means stroke or line and "sans" means without, so Serif text has that extra line or flourish (like Times New Roman or Georgia), and sans-serif is "sans," without it (like Ariel or Helvetica).
 
 
 12. Which of the following is a hexadecimal code?
@@ -87,3 +109,5 @@ Google is the best search engine in the world.
 123,543,242
 101010101
 -213
+
+#FFCC33 is a hexadecimal code (because it consists of six digits).
