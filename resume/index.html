@@ -5,123 +5,260 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/e5629a1a22.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-<div id="container">
-<!-- I'm pretty confused rn...but I built this myself! -->
-  <div id="name">Tori Bergel</div>
+  <div id="container">
 
-  <!--
-  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEKNRF8LybR5w/profile-displayphoto-shrink_400_400/0?e=1605744000&v=beta&t=p6aLc0AEh4hIBeO_-S1F_SXuDpujuOovPzyFgaZfwa0" width="300">
--->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#top">Tori Bergel <span class="sr-only">(current)</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!-- following your resume's outline -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experience</a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="#Journalism experience">Journalism experience</a>
+         <a class="dropdown-item" href="#Other experience">Other experience</a>
+       </div>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#Education">Education</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#Skills">Skills</a>
+     </li>
+   </div>
+ </nav>
 
-<!-- contact info -->
-  <div class="menu">
-    <li>tbergel@terpmail.umd.edu</li>
-    <li><a href="#https://www.linkedin.com/in/torinbergel/">LinkedIn</a></li>
-    <li><a href="#https://twitter.com/BergelTori">Twitter</a></li>
-    <li><a href="#https://github.com/tbergel">GitHub</a></li>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+
+    <br>
+  <div id="profile" class="container-fluid">
+    <a name="top"></a>
+    <div class="jumbotron" data-position="center center">
+      <h1 class="display-4"><strong>Tori Bergel</strong></h1>
+      <hr class="my-4">
+      <p><strong>Multiplatform journalist</strong></p>
+      <br>
+      <br>
+      <a class="button" class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/torinbergel/" target="_blank" role="button"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a class="button" class="btn btn-primary btn-lg" href="https://twitter.com/BergelTori" target="_blank" role="button"><i class="fab fa-twitter fa-3x"></i></a>
+      <a class="button" class="btn btn-primary btn-lg" href="https://github.com/tbergel" target="_blank" role="button"><i class="fab fa-github fa-3x"></i></a>
+      <br>
+      tbergel@terpmail.umd.edu
+    </div>
   </div>
 
 <!--title and mission statement -->
-  <div id="title">Multiplatform journalist</div>
-  <div class="top">Tori is a student within the Philip Merrill College of Journalism at the University of Maryland. Currently, she is a blogging and editing intern at the Time4Coffee Podcast</div>
+  <div class="row">
+      <div class="col-md-4 text-center">
+        <br>
+        <br>
+        <p><strong>Tori is a student within the Philip Merrill College of Journalism at the University of Maryland. She hopes to pursue a a career in feature writing or investigative reporting after graduation.</strong></p>
+      </div>
 
-  <div class="sectionheader">Journalism Experience:</div>
+      <div class="col-md-4 text-center">
+        <img src="file:///Users/toribergel/Pictures/tori%20twitter.jpg" alt="Tori Bergel" width="246" height="246">
+      </div>
 
-  <!-- first job -->
-  <div class="jobtitle">News intern</div>
-  <div class="organization">Montgomery Community Media</div>
-  <div class="date">May 2020 - August 2020</div>
-  <ul>
-    <li>Wrote multiple daily articles of varying topics pertaining to Montgomery County and its residents—some of which were among the day’s top visited stories.</li>
-    <li>Conducted research and interviews virtually for stories focused in Maryland while quarantining in Boston due to the coronavirus pandemic.</li>
-    <li>Edited, shaped and sized photo elements in conjunction with each article.</li>
-  </ul>
+      <div class="col-md-4 text-center">
+        <br>
+        <br>
+        <p><strong>Currently, she is an intern at the Time4Coffee Podcast. She also contributes to numerous on-campus publications including The Campus Trainer and Unwind Magazine.</strong></p>
+      </div>
+    </div>
 
-  <!-- second job -->
-  <div class="jobtitle">Staff writer</div>
-  <div class="organization">Unwind Magazine</div>
-  <div class="date">Spring 2020 - Present</div>
-  <ul>
-    <li>Write, interview and research stories of varying lengths for the University of Maryland’s premier arts and lifestyle magazine</li>
-  </ul>
+<!-- following your resume's outline -->
+  <br>
+  <div id="journalism-experience" class="container-fluid">
+    <a name="Journalism experience"></a>
+    <br>
+    <div class="sectionheader">Journalism Experience:</div>
+    <hr class="my-4">
+
+    <!-- first job -->
+    <div class=" journalism experience row">
+            <div class="col-md-4">
+                    <h4>Montgomery Community Media</h4>
+                    <p>May 2020 - August 2020</p>
+            </div>
+
+            <div class="col-md-8">
+                    <h5><strong>News intern</strong></h5>
+                    <p>
+                      I Wrote multiple daily articles of varying topics pertaining to Montgomery County and its residents. I had to conduct all research and interviews for stories based in Maryland virtually while quarantining in Boston due to the coronavirus pandemic. In addition, I also edited, shaped and sized photo elements to go along with each article.
+                    </p>
+            </div>
+    </div>
+    <br>
+
+    <!-- second job -->
+    <div class=" journalism experience row">
+            <div class="col-md-4">
+                    <h4>Unwind Magazine</h4>
+                    <p>Spring 2020 - Present</p>
+            </div>
+
+            <div class="col-md-8">
+                    <h5><strong>Staff writer</strong></h5>
+                    <p>
+                      I write, interview and research original stories covering a variety of topics for the premier arts and lifestyle magazine at the University of Maryland.
+                    </p>
+            </div>
+    </div>
+    <br>
 
   <!-- third job -->
-  <div class="jobtitle">Copy editor</div>
-  <div class="organization">The Campus Trainer</div>
-  <div class="date">Fall 2019 - Present</div>
-  <ul>
-    <li>Edit multiple articles each news cycle for grammar, factuality and other potential mistakes.</li>
-  </ul>
+    <div class=" journalism experience row">
+            <div class="col-md-4">
+                    <h4>The Campus Trainer</h4>
+                    <p>Fall 2019 - Present</p>
+            </div>
+
+            <div class="col-md-8">
+                    <h5><strong>Copy editor</strong></h5>
+                    <p>
+                      I edit multiple articles each news cycle for grammar, factuality and other potential mistakes.
+                    </p>
+            </div>
+    </div>
+    <br>
 
   <!-- fourth job -->
-  <div class="jobtitle">Staff writer</div>
-  <div class="organization">The Mitzpeh</div>
-  <div class="date">Fall 2019</div>
-  <ul>
-    <li>Wrote weekly articles, on deadline, covering the University of Maryland’s Jewish community.</li>
-  </ul>
+  <div class=" journalism experience row">
+          <div class="col-md-4">
+                  <h4>The Mitzpeh</h4>
+                  <p>Fall 2019</p>
+          </div>
+
+          <div class="col-md-8">
+                  <h5><strong>Staff writer</strong></h5>
+                  <p>
+                    I wrote weekly articles, on deadline, which covered the Jewish community at the University of Maryland.
+                  </p>
+          </div>
+  </div>
+  <br>
 
   <!-- fifth job -->
-  <div class="jobtitle">Editorial intern</div>
-  <div class="organization">The Jewish Advocate</div>
-  <div class="date">June 2019 - August 2019</div>
-  <ul>
-    <li>Wrote multiple articles on various topics—including news stories, art reviews and sports features—featured both inside and on the front page of the paper.</li>
-    <li>Assisted with final edits and other tasks to help send the paper to print each week.</li>
-    <li>Conducted on-assignment research and interviews to aid with story coverage.</li>
-  </ul>
+  <div class=" journalism experience row">
+          <div class="col-md-4">
+                  <h4>The Jewish Advocate</h4>
+                  <p>June 2019 - August 2019</p>
+          </div>
 
-  <div class="sectionheader">Other Experience:</div>
+          <div class="col-md-8">
+                  <h5><strong>Editorial intern</strong></h5>
+                  <p>
+                    I wrote multiple articles on various topics spanning from news stories to art reviews and sports features, which were featured both inside and on the front page of the paper. I also assisted with editing and other opperational tasks in order to help send the paper to print each week. I conducted on-assignment research and interviews to aid with story coverage.
+                  </p>
+          </div>
+  </div>
+  <br>
+  </div>
 
-  <!-- first thing -->
-  <div class="jobtitle">Clubhouse server</div>
-  <div class="organization">Sharon Country Club</div>
-  <div class="date">June 2020 - August 2020</div>
-  <ul>
-    <li>Served 60-plus members daily while maintaining personalized customer experiences, strengthening both professional and interpersonal skills.</li>
-  </ul>
+  <div id="other-experience" class="container-fluid">
+    <a name="Other experience"></a>
+    <br>
+    <div class="sectionheader">Other Experience:</div>
+    <hr class="my-4">
 
-  <!-- second thing -->
-  <div class="jobtitle">Student intern</div>
-  <div class="organization">University of Maryland Hillel</div>
-  <div class="date">Spring 2020</div>
-  <ul>
-    <li>Front desk manager and greeter in charge of handling operational and other organizational tasks.</li>
-  </ul>
+    <!-- first thing -->
+    <div class="other experience row">
+            <div class="col-md-4">
+                    <h4>Sharon Country Club</h4>
+                    <p>June 2020 - August 2020</p>
+            </div>
+
+            <div class="col-md-8">
+                    <h5><strong>Clubhouse server</strong></h5>
+                    <p>
+                      I served over 60 members daily while maintaining personalized customer experiences, which strengthened both my professional and interpersonal skills.
+                    </p>
+            </div>
+    </div>
+    <br>
+
+    <!-- second thing -->
+    <div class="other experience row">
+            <div class="col-md-4">
+                    <h4>University of Maryland Hillel</h4>
+                    <p>Spring 2020</p>
+            </div>
+
+            <div class="col-md-8">
+                    <h5><strong>Student intern</strong></h5>
+                    <p>
+                      I worked as a front desk manager and greeter. I was in charge of handling operational and other organizational tasks, not limited to giving building tours and organizing meal-plan data.
+                    </p>
+            </div>
+    </div>
+    <br>
+  </div>
 
   <!-- education -->
-  <div class="sectionheader">Education:</div>
-  <div class="organization">University of Maryland, College Park</div>
-  <div class="date">B.A. Journalism, creative writing minor</div>
-  <div id="degrees"><ul>
-    <li>Expected graduation: May 2021</li>
-  </ul></div>
+  <div id="education" class="container-fluid">
+    <a name="Education"></a>
+    <br>
+    <div class="sectionheader">Education:</div>
+    <hr class="my-4">
 
-  <!-- skills section -->
-  <div class="sectionheader">Skills</div>
-  <div class="date" style="font-style: normal;">Languages</div>
-  <div id="do"><ul>
-    <li>Hebrew</li>
-  </ul></div>
-  <div class="date" style="font-style: normal;">Computer/editing</div>
-  <div id="do"><ul>
-    <li>AP style</li>
-    <li>MS Office</li>
-    <li>Adobe Creative Suites</li>
-    <li>WordPress</li>
-  </ul></div>
-  <div class="date" style="font-style: normal;">Social media</div>
-  <div id="do"><ul>
-    <li>Snapchat</li>
-    <li>Twitter</li>
-    <li>Instagram</li>
-    <li>Facebook</li>
-  </ul></div>
+    <div class="education row">
+            <div class="col-md-4">
+                    <h4>University of Maryland, College Park</h4>
+                    <p>Expected graduation: May 2021</p>
+            </div>
 
+            <div class="col-md-8">
+                    <h5><strong>B.A. Journalism; creative writing minor</strong></h5>
+                    <p>
+                      I learned a multitude of skills while at the Philip Merrill College of Journalism including HTML, R, and the Adobe Creative Suites. I recieved semester acedemic honors from Fall 2017 - Spring 2019 and Spring 2020.
+                    </p>
+                    <br>
+            </div>
+    </div>
+  </div>
+
+    <!-- skills section -->
+    <div id="skills" class="container-fluid">
+    <a name="Skills"></a>
+    <br>
+    <div class="sectionheader">Skills</div>
+    <hr class="my-4">
+
+    <div class="skills row">
+                <div class="col-md-4">
+                        <h3><i class="fas fa-pencil-alt"></i> Languages</h3>
+                        <p>I have conversational level Hebrew skills, having had learned it since I was in elementary school. I am also learning Sign Language, though I am currently at novice level.</p>
+                </div>
+
+                <div class="col-md-4">
+                        <h3><i class="fas fa-desktop"></i> Computer/editing</h3>
+                        <p>I am proficient in AP Style and have skills in the following platfors/coding langauges: MS Office, WordPress, Adobe Audition, Photoshop, Adobe Bridge, Premiere Pro, Adobe XD, HTML and R.</p>
+                </div>
+                <div class="col-md-4">
+                        <h3><i class="fab fa-instagram"></i> Social media</h3>
+                        <p>I can confidently navigate Twitter, Instagram, Snapchat and Facebook.</p>
+                </div>
+        </div>
+        <br>
+        <br>
+  </div>
 </div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<footer><small>&copy; Copyright 2020, Tori Bergel</small> </footer>
 </body>
 </html>
