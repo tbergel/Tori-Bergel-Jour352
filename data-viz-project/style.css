@@ -38,6 +38,12 @@ nav {
   font-family: Garamond, Georgia, serif;
 }
 
+.emphasis::first-letter {
+  font-size: 250%;
+  color: #943A85;
+  font-weight: bold;
+}
+
 .blockquote1 {
   font: 16px/24px normal Garamond, Georgia, serif;
   text-transform: uppercase;
@@ -48,7 +54,7 @@ nav {
   padding-right: 650px;
   padding-top: 15px;
   padding-bottom: 15px;
-  text-decoration: underline #9A58CC;
+  text-decoration: underline #DB8C04 ;
 }
 
 .blockquote2 {
@@ -61,13 +67,13 @@ nav {
   padding-left: 650px;
   padding-top: 15px;
   padding-bottom: 15px;
-  text-decoration: underline #9A58CC;
+  text-decoration: underline #DB8C04;
 }
 
 span {
   font-style: italic;
   font-weight: bold;
-  color: #9A58CC;
+  color: #DB8C04;
 }
 
 .chart {
@@ -78,6 +84,12 @@ span {
 .graph {
   padding-left: 150px;
   padding-right: 150px;
+}
+
+.instagram {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
