@@ -44,6 +44,12 @@ nav {
   font-weight: bold;
 }
 
+.row {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .blockquote1 {
   font: 16px/24px normal Garamond, Georgia, serif;
   text-transform: uppercase;
